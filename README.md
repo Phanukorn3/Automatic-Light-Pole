@@ -2,7 +2,6 @@
 
 # สมาชิกกลุ่ม
 <table style="width:100%">
-  border: 1px solid black;
   <tr>
     <th>สมาชิก</th>
     <th>รหัสนักศึกษา</th>
