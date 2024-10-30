@@ -1,19 +1,22 @@
 # Physical Computing "Automatic Light Pole"
 
-#รายละเอียดโครงงาน
+# รายละเอียดโครงงาน
+
 โครงงานนี้พัฒนาระบบไฟส่องสว่างโดยใช้ Ultrasonic Sensor สำหรับการตรวจจับวัตถุหรือบุคคลที่เข้ามาในระยะไม่เกิน 10 เซนติเมตร 
 เช่น ใช้ในเสาไฟหลังบ้านหรือเสาไฟข้างถนน ซึ่งเมื่อมีคนหรือวัตถุเคลื่อนเข้ามาใกล้ ไฟ RGB จะสว่างขึ้นเป็นสีขาวเพื่อเพิ่มแสงสว่างในบริเวณดังกล่าว 
 และเพื่อให้เหมาะสมกับการใช้งานที่หลากหลาย ผู้ใช้สามารถปรับเปลี่ยนสีของไฟได้ตามต้องการผ่านการควบคุมทาง Wi-Fi
 
-#ฟังก์ชันหลัก
+# ฟังก์ชันหลัก
   - ถ้ามีวัตถุหรือบุคคลเข้ามาในระยะ 10 เซนติเมตร ไฟจะติด
   - สามารถปรับเปลี่ยนสีของไฟได้ผ่านทาง Wi-Fi
 
-# Videos
-[Videos](https://youtu.be/v0FqRhCe-OA?feature=shared)
+# Website
+
+# Demo Video
+[Video](https://youtu.be/v0FqRhCe-OA?feature=shared)
 
 # Poster
-[A1 - 1.pdf](https://github.com/user-attachments/files/17567644/A1.-.1.pdf)
+![A4 - 1](https://github.com/user-attachments/assets/8b0281bd-be4b-4e53-819b-9fc77ee98233)
 
 # สมาชิกกลุ่ม
 <table style="width:100%">
