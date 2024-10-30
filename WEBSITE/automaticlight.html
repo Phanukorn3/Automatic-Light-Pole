@@ -1,0 +1,268 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Light Pole</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+            font-family: "Noto Sans Thai", sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        h2 {
+            color: #0B578F;
+            font-size: 30px;
+            margin: 0px;
+        }
+
+        .containers {
+            text-align: center;
+        }
+
+        .containers  .topic p {
+            width: 500px;
+            justify-self: center;
+            margin: 10px;
+        }
+
+        .containers .topic span{
+            font-weight: bold;
+            font-size: 50px;
+            margin: 10px;
+        }
+
+        .containers .topic .light {
+            color: transparent;
+            -webkit-text-stroke: 3px #FDB92E;
+        }
+        
+        .details {
+            justify-items: center;
+        }
+
+        .function {
+            justify-items: center;
+        }
+
+        .accessory {
+            justify-items: center;
+        }
+
+        .topic-img {
+            margin: 50px;
+        }
+
+        .topic-img img {
+            border-radius: 40px;
+        }
+
+        .description {
+            width: 900px;
+            margin: 20px;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            text-align: center;
+        }
+        
+        .line-text {
+            border-bottom: 3px solid #454545;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .allequipment {
+            display: flex;
+        }
+
+        .equipment {
+            width: 200px;
+            margin: 40px;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .equipment img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .video {
+            margin: 30px;
+        }
+        
+        .source-code {
+            margin: 20px;
+        }
+
+        .source-code img {
+            border-radius: 40px;
+        }
+
+
+        .source-code button{
+            background-color: #0B578F; 
+            color: white; 
+            margin: 20px;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border: none;
+            border-radius: 20px;
+            transition: background-color 0.3s ease, transform 0.3s ease; 
+            cursor: pointer;
+        }
+
+        .source-code button:hover {
+            background-color: #004270; 
+            transform: scale(1.05);
+        }
+
+        .member {
+            display: flex;
+        }
+
+        .member-card {
+            display: flex;
+            width: 400px;
+            margin: 10px;
+            margin-bottom: 50px;
+            padding: 20px;
+            background: #424242;
+            box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            text-align: left;
+        }
+
+        .member-card img {
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        .name{
+            margin: 10px;
+            color: white;
+            font-size: 20px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="containers">
+        <!-- หัวข้อ -->
+        <div class="topic">
+            <span>AUTOMATIC</span>
+            <span class="light">LIGHT</span>
+            <span>POLE</span>
+            <p>โปรเจคนี้ใช้ Ultrasonic Sensor สำหรับตรวจจับ ไฟจะสว่างเป็นสีขาวเมื่อมีคนหรือวัตถุเข้าใกล้ และสามารถปรับสีได้ผ่าน Wi-Fi</p>
+        </div>
+        <div class="topic-img">
+            <img src="img/IMG_7972.jpg" width="700px" height="400px" alt="">
+        </div>
+        <!-- รายละเอียด -->
+         <div class="details">
+            <h2>รายละเอียดโครงงาน</h2>
+            <div class="line-text" style="width: 100px;"></div>
+            <div class="description">
+                <p>
+                    โครงงานนี้พัฒนาระบบไฟส่องสว่างโดยใช้ Ultrasonic Sensor สำหรับการตรวจจับวัตถุหรือบุคคลที่เข้ามาในระยะไม่เกิน 10 เซนติเมตร
+                    เช่น ใช้ในเสาไฟหลังบ้านหรือเสาไฟข้างถนน ซึ่งเมื่อมีคนหรือวัตถุเคลื่อนเข้ามาใกล้ ไฟ RGB จะสว่างขึ้นเป็นสีขาวเพื่อเพิ่มแสงสว่างในบริเวณดังกล่าว 
+                    และเพื่อให้เหมาะสมกับการใช้งานที่หลากหลาย ผู้ใช้สามารถปรับเปลี่ยนสีของไฟได้ตามต้องการผ่านการควบคุมทาง Wi-Fi
+                </p>
+            </div>
+        </div>
+        <!-- ฟังก์ชัน -->
+        <div class="function">
+            <h2>ฟังก์ชันหลัก</h2>
+            <div class="line-text" style="width: 70px;"></div>
+            <div class="description">
+                <p>- ถ้ามีวัตถุหรือบุคคลเข้ามาในระยะ 10 เซนติเมตร ไฟจะติด</p>
+                <p>- สามารถปรับเปลี่ยนสีของไฟได้ผ่านทาง Wi-Fi</p>
+            </div>
+        </div>
+        <!-- อุปกรณ์ -->
+        <div class="accessory">
+            <h2>อุปกรณ์</h2>
+            <div class="line-text" style="width: 40px;"></div>
+            <div class="allequipment">
+                <div class="equipment">
+                    <img src="img/led.png" alt="">
+                    <h3>RGB LIGHT</h3>
+                </div>
+                <div class="equipment">
+                    <img src="img/Breadboard.png" alt="">
+                    <h3>BREADBOAERD</h3>
+                </div>
+                <div class="equipment">
+                    <img src="img/ultra.jpg" alt="">
+                    <h3>ULTRASONIC SENSOR</h3>
+                </div>
+            </div>
+        </div>
+        <!-- VIDEO -->
+        <h2>PROJECT VIDEO DEMO</h2>                
+        <div class="line-text" style="width: 150px;"></div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aDnhfiWiV24?si=PaoHc5PxyOHnCoi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- CODE -->
+        <h2>SOURCE CODE</h2>                
+        <div class="line-text" style="width: 100px; margin-bottom: 5px;"></div>
+        <p>ตัวอย่างของฟังก์ชั่นของโปรเจค โดยที่เราเข้าใกล้ตามระยะที่กำหนดไฟจะติด</p>
+        <div class="source-code">
+            <img src="img/code.png" alt=""><br>
+            <button type="button" onclick="location.href='https://github.com/Phanukorn3/Automatic-Light-Pole/blob/main/AutomaticLightPole%20Code/code%20project%20c.ino'">เพิ่มเติม</button>
+        </div>
+        <!-- สมาชิก -->
+        <h2>MEMBER</h2>
+        <div class="line-text" style="width: 50px;"></div>
+        <div class="member">
+            <div class="member-card">
+                <img src="img/155.jpg" alt="">
+                <div class="name">
+                    <p>นายภานุกร เดชผดุง</p>
+                    <p>66070155</p>
+                </div>
+            </div>
+            <div class="member-card">
+                <img src="img/178.jpg" alt="">
+                <div class="name">
+                    <p>นายวรเมธ สีม่วงคำ</p>
+                    <p>66070178</p>
+                </div>
+            </div>
+            <div class="member-card">
+                <img src="img/227.jpg" alt="">
+                <div class="name">
+                    <p>นายอิทธิพัทธ์ เหง่าคีรี</p>
+                    <p>66070227</p>
+                </div>
+            </div>
+            <div class="member-card">
+                <img src="img/251.jpg" alt="">
+                <div class="name">
+                    <p>นายชัยวิวัฒน์ ศิริพันธ์</p>
+                    <p>66070251</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
