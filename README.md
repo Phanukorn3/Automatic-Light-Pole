@@ -15,7 +15,7 @@
 # Website
 
 # Demo Video
-[Video](https://youtu.be/v0FqRhCe-OA?feature=shared)
+[Video](https://youtu.be/aDnhfiWiV24?feature=shared)
 
 # Poster
 ![A1 - 1-1](https://github.com/user-attachments/assets/3ef06983-49b0-4a64-91ed-142579ecaccc)
