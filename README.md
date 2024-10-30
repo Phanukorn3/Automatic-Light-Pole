@@ -18,7 +18,7 @@
 [Video](https://youtu.be/v0FqRhCe-OA?feature=shared)
 
 # Poster
-![A4 - 1](https://github.com/user-attachments/assets/8b0281bd-be4b-4e53-819b-9fc77ee98233)
+![A1 - 1-1](https://github.com/user-attachments/assets/3ef06983-49b0-4a64-91ed-142579ecaccc)
 
 # สมาชิกกลุ่ม
 <table style="width:100%">
